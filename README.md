@@ -23,3 +23,13 @@ At the moment, the toolkit includes the installation of following tools and util
   - TruffleHog
   - Metasploit
 This is an open source project so the list continues to grow as contributors will append more useful tools.
+
+# Usage
+1. Run the script as root (recommended)
+2. git clone https://github.com/r3dpower/r3dpower_toolkit.git; cd r3dpower_toolkit
+3. chmod +x rp_toolkit.sh
+4. ./rp_toolkit.sh
+5. Pick one of the options for installation
+
+
+![image](https://github.com/r3dpower/r3dpower_toolkit/assets/146964687/99dc1a8e-c5cc-4dfb-922c-74c867f4b981)
