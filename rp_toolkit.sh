@@ -154,6 +154,12 @@ general_tools() {
         docker pull trufflesecurity/trufflehog;
         echo -e "\n\t[+] Trufflehog - Installed (docker)" >> /root/rp_arsenal/installation_report.txt;
     fi
+
+    #Install Graudit
+    cd /root/rp_arsenal/;
+    git clone https://github.com/wireghoul/graudit;
+    echo 'PATH="$HOME/graudit:${PATH:+:${PATH}}"; export PATH;' >> ~/.bashrc;
+    export GRDIR=/path/to/graudit/signatures;
 }
 
 install_recon_tools() {
