@@ -22,6 +22,7 @@ At the moment, the toolkit includes the installation of following tools and util
   - DS_Store dumper
   - TruffleHog
   - Metasploit
+  - graudit
 This is an open source project so the list continues to grow as contributors will append more useful tools.
 
 # Usage
